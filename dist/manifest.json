@@ -1,0 +1,8 @@
+{
+	"id": "PredictionMarket",
+	"name": "Simple Prediction Market",
+	"description": "A simple prediction market dapp with neural nets",
+	"version": "0.1",
+	"author": "David Dao",
+	"iconUrl": "title.png"
+}

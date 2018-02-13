@@ -1,0 +1,38 @@
+{
+  "name": "predmarket",
+  "version": "0.1.5",
+  "description": "Simple Prediction Market with Neural Nets",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "bignumber.js": "^6.0.0",
+    "deeplearn": "^0.4.2",
+    "deeplearn-squeezenet": "^0.1.9",
+    "oo7": "^0.5.8",
+    "oo7-parity": "^0.6.13",
+    "oo7-react": "^0.4.8",
+    "parity-reactive-ui": "^0.4.21",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server --content-base build"
+  },
+  "keywords": [
+    "Dapp",
+    "Parity",
+    "Reactive",
+    "Template"
+  ],
+  "author": "David Dao",
+  "license": "Apache-2.0"
+}
