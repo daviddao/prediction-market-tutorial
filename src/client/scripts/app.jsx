@@ -131,7 +131,7 @@ export class App extends React.Component {
 				{bonds.balance(bonds.me).map(formatBalance)}
 			</Rspan>
 
-			<DerpLearn
+ 			{/* <DerpLearn
 				predict={
 					() => {
 						this.randomGenerator();
@@ -139,7 +139,7 @@ export class App extends React.Component {
 							const y = this.inference()
 						});
 					}}
-			/>
+			/> */}
 		</div>);
 	}
 }
